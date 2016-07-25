@@ -1,0 +1,123 @@
+
+.container .credit {
+    margin: 20px 0;
+}
+
+.navbar:before{
+    content: "SFSU Software Engineering Project, Spring 2014. For Demonstration Only";
+    font-style: italic;
+    font-size: .9em;
+    color: #eee;
+    float:left;
+    max-width: 200px;
+}
+
+.navbar>.container .navbar-brand{
+
+    font-size: 40px;
+    line-height: 20px;
+    margin-left: 40px;  
+}
+#leftside{
+}
+
+
+
+#leftNav .list-group-item a{
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+}
+
+#leftNav .list-group-item .glyphicon{
+    float: right;
+}
+
+#leftNav .list-group-item .glyphicon:hover{
+    cursor: pointer;
+}
+
+#leftNav .list-group-item.child{
+    cursor: pointer;
+    display: none;
+}
+
+#leftNav .open ~ .child{
+    display: block;
+}
+
+.inline{
+    display: inline !important;
+}
+
+li.leftnav_drop > ul.leftnav_drop {
+    display: none;
+}
+
+li.leftnav_drop.open > ul.leftnav_drop {
+    display: block;
+}
+
+span.caret:hover{
+    cursor: pointer;
+}
+.leftnav_drop{
+    margin: 10px 10px;
+    list-style: none;
+    border: none;
+    padding-left: 20px;
+    margin-left: -20px;
+    box-shadow: none;
+    position: initial;
+    background: #f1f1f1;
+    width: 75%;
+}
+
+span.list-group-item:hover, span.list-group-item:focus{
+    text-decoration: none;
+    background-color: rgb(245, 245, 245)
+}
+.denyForm  input{display: none;}
+
+#customDenial{
+    margin-top: 5px;
+    width: 100%;
+    resize: none;
+    display: none;
+}
+
+
+#customDenialTrigger.active + #customDenial{display: block;}
+
+#recent_activity .table>tbody>tr:first-of-type>td, #admin .table>tbody>tr:first-of-type>td, #messages .table>tbody>tr:first-of-type>td{
+    border-top: none;   
+}
+
+#messages .well{
+    margin-top: 2em;
+}
+
+.editCaption.carousel-caption .btn {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#descriptionTextArea{
+    width: 100%;
+    resize: none;
+    padding: 10px;
+}
+
+#editButton{
+    background-color: rgb(255, 255, 0);
+}
+
+
+div.list-group-item.active{
+    z-index: 2;
+    background-color: rgb(66, 139, 202);
+    border-color: rgb(66, 139, 202);
+}
+
+
+#leftNav div.list-group-item.active > a.parent{
+    color: rgb(255, 255, 255);
+}
